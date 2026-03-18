@@ -14,5 +14,17 @@ public class main {
 
         k1.zwroc();
         k1.wypiszInfo();
+        System.out.println("-------------------");
+        Czytelnik c1 = new Czytelnik("Jan", "Kowalski", 101, 0);
+        Czytelnik c2 = new Czytelnik("Anna", "Nowak", 102, 2);
+
+        c1.wypiszDane();
+        c2.wypiszDane();
+
+        c1.zwiekszLiczbeWypozyczen();
+        c1.wypiszDane();
+
+        c2.zmniejszLiczbeWypozyczen();
+        c2.wypiszDane();
     }
 }
